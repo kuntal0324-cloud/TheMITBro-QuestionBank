@@ -7,7 +7,7 @@ Engineering Mathematics
 Linear Algebra – Matrices
 
 ## Total Questions
-20
+30
 
 ---
 
@@ -525,3 +525,282 @@ D. det(A + B) = det(A) + det(B)
 **Answer:** A
 
 **Concept Tested:** Matrix addition.
+
+---
+
+## LA-MAT-021
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 2  -1
+      5   3 ]
+
+then |A| equals
+
+A. 1
+
+B. 6
+
+C. 11
+
+D. 13
+
+**Answer:** C
+
+**Concept Tested:** Determinant of a 2×2 matrix.
+
+---
+
+## LA-MAT-022
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 1  2
+      3  4 ]
+
+and
+
+B = [ 2  1
+      0  3 ]
+
+then the element in the first row and first column of (A+B) is
+
+A. 1
+
+B. 2
+
+C. 3
+
+D. 4
+
+**Answer:** C
+
+**Concept Tested:** Matrix addition.
+
+---
+
+## LA-MAT-023
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 1  0
+      2  3 ]
+
+and
+
+B = [ 2  1
+      4  0 ]
+
+then the element (2,1) of AB equals
+
+A. 4
+
+B. 8
+
+C. 16
+
+D. 20
+
+**Answer:** C
+
+**Concept Tested:** Matrix multiplication.
+
+---
+
+## LA-MAT-024
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 3  0
+      0  5 ]
+
+then trace(A) + det(A) equals
+
+A. 15
+
+B. 20
+
+C. 23
+
+D. 25
+
+**Answer:** C
+
+**Concept Tested:** Trace and determinant.
+
+---
+
+## LA-MAT-025
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 4  7
+      2  6 ]
+
+then det(Aᵀ) equals
+
+A. 10
+
+B. 14
+
+C. 24
+
+D. -10
+
+**Answer:** A
+
+**Concept Tested:** Determinant of transpose.
+
+---
+
+## LA-MAT-026
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 1  2
+      3  4 ]
+
+then the sum of all elements of A is
+
+A. 8
+
+B. 9
+
+C. 10
+
+D. 11
+
+**Answer:** C
+
+**Concept Tested:** Basic matrix operations.
+
+---
+
+## LA-MAT-027
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 5 ]
+
+then det(A) equals
+
+A. 0
+
+B. 1
+
+C. 5
+
+D. Undefined
+
+**Answer:** C
+
+**Concept Tested:** Determinant of a 1×1 matrix.
+
+---
+
+## LA-MAT-028
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 2  0
+      0  2 ]
+
+then A is
+
+A. Identity matrix
+
+B. Scalar matrix
+
+C. Zero matrix
+
+D. Singular matrix
+
+**Answer:** B
+
+**Concept Tested:** Scalar matrix.
+
+---
+
+## LA-MAT-029
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 1  3
+      2  4 ]
+
+then the element (1,2) of 2A equals
+
+A. 3
+
+B. 4
+
+C. 6
+
+D. 8
+
+**Answer:** C
+
+**Concept Tested:** Scalar multiplication.
+
+---
+
+## LA-MAT-030
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+A = [ 1  2
+      2  4 ]
+
+then A is
+
+A. Non-singular
+
+B. Singular
+
+C. Identity
+
+D. Orthogonal
+
+**Answer:** B
+
+**Concept Tested:** Singular matrix using determinant.
