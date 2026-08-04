@@ -268,3 +268,283 @@ D. A=B
 **Answer:** C
 
 **Concept Tested:** Commuting matrices.
+
+---
+
+### LA-MAT-011
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+Let
+
+\[
+A=\begin{bmatrix}
+3 & 1\\
+2 & 4
+\end{bmatrix}
+\]
+
+Find the trace of A.
+
+A. 5
+
+B. 6
+
+C. 7
+
+D. 8
+
+**Answer:** C
+
+**Concept Tested:** Trace of a matrix.
+
+---
+
+### LA-MAT-012
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+\[
+A=\begin{bmatrix}
+1&2\\
+3&4
+\end{bmatrix}
+\]
+
+then det(A) equals
+
+A. -2
+
+B. 2
+
+C. 10
+
+D. -10
+
+**Answer:** A
+
+**Concept Tested:** Determinant of a 2×2 matrix.
+
+---
+
+### LA-MAT-013
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+\[
+A=\begin{bmatrix}
+1&0\\
+0&1
+\end{bmatrix}
+\]
+
+then A² equals
+
+A. A
+
+B. 2A
+
+C. 0
+
+D. Undefined
+
+**Answer:** A
+
+**Concept Tested:** Identity matrix.
+
+---
+
+### LA-MAT-014
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If matrix A is of order 3×4, then the number of elements is
+
+A. 7
+
+B. 12
+
+C. 16
+
+D. 24
+
+**Answer:** B
+
+**Concept Tested:** Order of a matrix.
+
+---
+
+### LA-MAT-015
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If det(A)=5, then det(2A) for a 2×2 matrix is
+
+A. 10
+
+B. 20
+
+C. 40
+
+D. 5
+
+**Answer:** B
+
+**Concept Tested:** Scaling property of determinants.
+
+---
+
+### LA-MAT-016
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+Which of the following matrices is singular?
+
+A.
+\[
+\begin{bmatrix}
+1&2\\
+2&4
+\end{bmatrix}
+\]
+
+B.
+\[
+\begin{bmatrix}
+1&0\\
+0&1
+\end{bmatrix}
+\]
+
+C.
+\[
+\begin{bmatrix}
+2&1\\
+1&3
+\end{bmatrix}
+\]
+
+D.
+\[
+\begin{bmatrix}
+3&2\\
+1&4
+\end{bmatrix}
+\]
+
+**Answer:** A
+
+**Concept Tested:** Singular matrix.
+
+---
+
+### LA-MAT-017
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+The rank of the identity matrix of order n is
+
+A. 0
+
+B. 1
+
+C. n
+
+D. n−1
+
+**Answer:** C
+
+**Concept Tested:** Rank of identity matrix.
+
+---
+
+### LA-MAT-018
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If A is invertible, then
+
+A. det(A)=0
+
+B. det(A)≠0
+
+C. rank(A)=0
+
+D. A is singular
+
+**Answer:** B
+
+**Concept Tested:** Condition for invertibility.
+
+---
+
+### LA-MAT-019
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+For any square matrix A,
+
+A. tr(A+B)=tr(A)+tr(B)
+
+B. tr(AB)=det(A)
+
+C. tr(A)=rank(A)
+
+D. tr(A)=det(A)
+
+**Answer:** A
+
+**Concept Tested:** Properties of trace.
+
+---
+
+### LA-MAT-020
+
+**Difficulty:** Basic
+**Type:** MCQ
+**Marks:** 1
+
+If
+
+\[
+A=\begin{bmatrix}
+1&2\\
+0&1
+\end{bmatrix}
+\]
+
+then the eigenvalues of A are
+
+A. 1,1
+
+B. 1,2
+
+C. 2,2
+
+D. 0,1
+
+**Answer:** A
+
+**Concept Tested:** Eigenvalues of an upper triangular matrix.
