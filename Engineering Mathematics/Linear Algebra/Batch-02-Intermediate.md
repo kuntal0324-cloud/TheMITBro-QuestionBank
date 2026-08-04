@@ -1,224 +1,271 @@
 # Batch-02 : Intermediate
-## Linear Algebra
 
 ---
 
-### Question ID: EM-LA-0201
-**Topic:** Matrices
-**Difficulty:** 5/10
-**Type:** MCQ
+## LA-MAT-031
+
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
 
 If
 
-A = [ [2,1],
-      [3,4] ]
+A = [ 2  1
+      3  2 ]
 
-then the value of trace(A²) is
+then det(A⁻¹) is
 
-A) 27
-B) 29
-C) 31
-D) 33
+A. 1
 
-**Answer:** B
+B. -1
 
-**Concept:** Matrix multiplication and trace.
+C. 2
 
----
-
-### Question ID: EM-LA-0202
-**Topic:** Matrices
-**Difficulty:** 5/10
-**Type:** MCQ
-
-Let
-
-A = [ [1,2],
-      [0,3] ]
-
-Then A⁵ is
-
-A) [[1,242],[0,243]]
-B) [[1,121],[0,243]]
-C) [[1,162],[0,243]]
-D) [[1,243],[0,242]]
+D. -2
 
 **Answer:** B
 
-**Concept:** Powers of upper triangular matrices.
+**Concept Tested:** Determinant of inverse matrix.
 
 ---
 
-### Question ID: EM-LA-0203
-**Topic:** Determinants
-**Difficulty:** 6/10
-**Type:** MCQ
+## LA-MAT-032
 
-The determinant
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
 
-|1 2 3|
-|2 4 6|
-|1 1 0|
+If
 
-is
+A = [ 1  2
+      3  5 ]
 
-A) 0
-B) 2
-C) −6
-D) 8
+then A⁻¹ is
+
+A.
+[ -5   2
+   3  -1 ]
+
+B.
+[ 5  -2
+ -3   1 ]
+
+C.
+[ -5   3
+   2  -1 ]
+
+D.
+[ 1   2
+  3   5 ]
 
 **Answer:** A
 
-**Concept:** Linear dependence of rows.
+**Concept Tested:** Inverse of a 2×2 matrix.
 
 ---
 
-### Question ID: EM-LA-0204
-**Topic:** Determinants
-**Difficulty:** 6/10
-**Type:** MCQ
+## LA-MAT-033
 
-If det(A)=5, then det(3A) for a 3×3 matrix equals
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
 
-A) 15
-B) 45
-C) 135
-D) 405
+If det(A)=4 and det(B)=−3, then det(AB) equals
+
+A. -12
+
+B. 12
+
+C. -7
+
+D. 7
+
+**Answer:** A
+
+**Concept Tested:** Determinant of product.
+
+---
+
+## LA-MAT-034
+
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
+
+If
+
+A = [ 1  2
+      2  4 ]
+
+then A is
+
+A. Invertible
+
+B. Singular
+
+C. Orthogonal
+
+D. Idempotent
+
+**Answer:** B
+
+**Concept Tested:** Singular matrix.
+
+---
+
+## LA-MAT-035
+
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
+
+The determinant of
+
+[ 2  1  0
+  0  3  2
+  0  0  4 ]
+
+is
+
+A. 9
+
+B. 12
+
+C. 24
+
+D. 36
 
 **Answer:** C
 
-**Concept:** Determinant scaling property.
+**Concept Tested:** Determinant of triangular matrices.
 
 ---
 
-### Question ID: EM-LA-0205
-**Topic:** Rank
-**Difficulty:** 6/10
-**Type:** MCQ
+## LA-MAT-036
+
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
+
+If
+
+A = [ 3  2
+      0  3 ]
+
+then the eigenvalues of A are
+
+A. 3,2
+
+B. 3,3
+
+C. 2,0
+
+D. 5,1
+
+**Answer:** B
+
+**Concept Tested:** Eigenvalues of triangular matrices.
+
+---
+
+## LA-MAT-037
+
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
+
+If A is a 3×3 matrix and det(A)=5, then det(2A) equals
+
+A. 10
+
+B. 20
+
+C. 40
+
+D. 40
+
+**Answer:** C
+
+**Concept Tested:** Determinant scaling.
+
+---
+
+## LA-MAT-038
+
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
+
+If
+
+A = [ 1  0
+      0 -2 ]
+
+then trace(A²) equals
+
+A. 3
+
+B. 4
+
+C. 5
+
+D. 6
+
+**Answer:** C
+
+**Concept Tested:** Matrix powers and trace.
+
+---
+
+## LA-MAT-039
+
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
 
 The rank of
 
-|1 2 3|
-|2 4 6|
-|3 6 9|
+[ 1  2  3
+  2  4  6
+  1  1  0 ]
 
 is
 
-A) 0
-B) 1
-C) 2
-D) 3
+A. 1
+
+B. 2
+
+C. 3
+
+D. 0
 
 **Answer:** B
 
-**Concept:** Rank using linear dependence.
+**Concept Tested:** Rank by row dependence.
 
 ---
 
-### Question ID: EM-LA-0206
-**Topic:** System of Linear Equations
-**Difficulty:** 6/10
-**Type:** MCQ
+## LA-MAT-040
 
-The system
+**Difficulty:** Intermediate  
+**Type:** MCQ  
+**Marks:** 1
 
-x+y=2
+If
 
-2x+2y=4
+A = [ 0  1
+     -2  3 ]
 
-has
+then the characteristic equation of A is
 
-A) Unique solution
-B) No solution
-C) Infinitely many solutions
-D) Cannot be determined
+A. λ²−3λ+2=0
+
+B. λ²−3λ−2=0
+
+C. λ²−3λ+3=0
+
+D. λ²+3λ−2=0
 
 **Answer:** C
 
-**Concept:** Consistency using rank.
-
----
-
-### Question ID: EM-LA-0207
-**Topic:** Vector Spaces
-**Difficulty:** 6/10
-**Type:** MCQ
-
-The dimension of the vector space of all 3×3 symmetric matrices over ℝ is
-
-A) 3
-B) 6
-C) 9
-D) 12
-
-**Answer:** B
-
-**Concept:** Counting independent entries.
-
----
-
-### Question ID: EM-LA-0208
-**Topic:** Eigenvalues
-**Difficulty:** 6/10
-**Type:** MCQ
-
-The eigenvalues of
-
-A = [[4,0],
-     [0,-2]]
-
-are
-
-A) 4,2
-B) −4,2
-C) 4,−2
-D) 2,−4
-
-**Answer:** C
-
-**Concept:** Eigenvalues of diagonal matrices.
-
----
-
-### Question ID: EM-LA-0209
-**Topic:** Eigenvectors
-**Difficulty:** 6/10
-**Type:** MCQ
-
-One eigenvector corresponding to eigenvalue 5 of
-
-A=[[5,0],
-   [0,1]]
-
-is
-
-A) (1,0)
-B) (0,1)
-C) (1,1)
-D) (2,3)
-
-**Answer:** A
-
-**Concept:** Eigenvectors of diagonal matrices.
-
----
-
-### Question ID: EM-LA-0210
-**Topic:** Cayley–Hamilton
-**Difficulty:** 7/10
-**Type:** MCQ
-
-For every square matrix A satisfying
-
-A²−5A+6I=0,
-
-the value of A³ is
-
-A) 19A−30I
-B) 25A−36I
-C) 15A−18I
-D) 30I−19A
-
-**Answer:** A
-
-**Concept:** Using the characteristic equation to reduce higher powers.
+**Concept Tested:** Characteristic polynomial.
