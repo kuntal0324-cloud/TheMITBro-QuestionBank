@@ -271,22 +271,18 @@ D. A=B
 
 ---
 
-### LA-MAT-011
+## LA-MAT-011
 
-**Difficulty:** Basic
-**Type:** MCQ
+**Difficulty:** Basic  
+**Type:** MCQ  
 **Marks:** 1
 
-Let
+If
 
-\[
-A=\begin{bmatrix}
-3 & 1\\
-2 & 4
-\end{bmatrix}
-\]
+A = [ 3  1
+      2  4 ]
 
-Find the trace of A.
+then trace(A) equals
 
 A. 5
 
@@ -302,20 +298,16 @@ D. 8
 
 ---
 
-### LA-MAT-012
+## LA-MAT-012
 
-**Difficulty:** Basic
-**Type:** MCQ
+**Difficulty:** Basic  
+**Type:** MCQ  
 **Marks:** 1
 
 If
 
-\[
-A=\begin{bmatrix}
-1&2\\
-3&4
-\end{bmatrix}
-\]
+A = [ 1  2
+      3  4 ]
 
 then det(A) equals
 
@@ -333,20 +325,16 @@ D. -10
 
 ---
 
-### LA-MAT-013
+## LA-MAT-013
 
-**Difficulty:** Basic
-**Type:** MCQ
+**Difficulty:** Basic  
+**Type:** MCQ  
 **Marks:** 1
 
 If
 
-\[
-A=\begin{bmatrix}
-1&0\\
-0&1
-\end{bmatrix}
-\]
+A = [ 1  0
+      0  1 ]
 
 then A² equals
 
@@ -354,7 +342,7 @@ A. A
 
 B. 2A
 
-C. 0
+C. Zero matrix
 
 D. Undefined
 
@@ -364,13 +352,15 @@ D. Undefined
 
 ---
 
-### LA-MAT-014
+## LA-MAT-014
 
-**Difficulty:** Basic
-**Type:** MCQ
+**Difficulty:** Basic  
+**Type:** MCQ  
 **Marks:** 1
 
-If matrix A is of order 3×4, then the number of elements is
+A matrix has 3 rows and 4 columns.
+
+How many elements does it contain?
 
 A. 7
 
@@ -386,165 +376,152 @@ D. 24
 
 ---
 
-### LA-MAT-015
+## LA-MAT-015
 
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If det(A)=5, then det(2A) for a 2×2 matrix is
-
-A. 10
-
-B. 20
-
-C. 40
-
-D. 5
-
-**Answer:** B
-
-**Concept Tested:** Scaling property of determinants.
-
----
-
-### LA-MAT-016
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-Which of the following matrices is singular?
-
-A.
-\[
-\begin{bmatrix}
-1&2\\
-2&4
-\end{bmatrix}
-\]
-
-B.
-\[
-\begin{bmatrix}
-1&0\\
-0&1
-\end{bmatrix}
-\]
-
-C.
-\[
-\begin{bmatrix}
-2&1\\
-1&3
-\end{bmatrix}
-\]
-
-D.
-\[
-\begin{bmatrix}
-3&2\\
-1&4
-\end{bmatrix}
-\]
-
-**Answer:** A
-
-**Concept Tested:** Singular matrix.
-
----
-
-### LA-MAT-017
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-The rank of the identity matrix of order n is
-
-A. 0
-
-B. 1
-
-C. n
-
-D. n−1
-
-**Answer:** C
-
-**Concept Tested:** Rank of identity matrix.
-
----
-
-### LA-MAT-018
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If A is invertible, then
-
-A. det(A)=0
-
-B. det(A)≠0
-
-C. rank(A)=0
-
-D. A is singular
-
-**Answer:** B
-
-**Concept Tested:** Condition for invertibility.
-
----
-
-### LA-MAT-019
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-For any square matrix A,
-
-A. tr(A+B)=tr(A)+tr(B)
-
-B. tr(AB)=det(A)
-
-C. tr(A)=rank(A)
-
-D. tr(A)=det(A)
-
-**Answer:** A
-
-**Concept Tested:** Properties of trace.
-
----
-
-### LA-MAT-020
-
-**Difficulty:** Basic
-**Type:** MCQ
+**Difficulty:** Basic  
+**Type:** MCQ  
 **Marks:** 1
 
 If
 
-\[
-A=\begin{bmatrix}
-1&2\\
-0&1
-\end{bmatrix}
-\]
+A = [ 2  5
+      1  3 ]
 
-then the eigenvalues of A are
+then A is
 
-A. 1,1
+A. A square matrix
 
-B. 1,2
+B. A row matrix
 
-C. 2,2
+C. A column matrix
 
-D. 0,1
+D. A rectangular matrix
 
 **Answer:** A
 
-**Concept Tested:** Eigenvalues of an upper triangular matrix.
+**Concept Tested:** Classification of matrices.
+
+---
+
+## LA-MAT-016
+
+**Difficulty:** Basic  
+**Type:** MCQ  
+**Marks:** 1
+
+If
+
+A = [ 0  0
+      0  0 ]
+
+then A is called
+
+A. Identity matrix
+
+B. Scalar matrix
+
+C. Zero matrix
+
+D. Diagonal matrix
+
+**Answer:** C
+
+**Concept Tested:** Zero matrix.
+
+---
+
+## LA-MAT-017
+
+**Difficulty:** Basic  
+**Type:** MCQ  
+**Marks:** 1
+
+If matrix A is of order 2 × 3 and matrix B is of order 3 × 5, then the order of AB is
+
+A. 2 × 5
+
+B. 3 × 2
+
+C. 5 × 2
+
+D. Multiplication not possible
+
+**Answer:** A
+
+**Concept Tested:** Matrix multiplication.
+
+---
+
+## LA-MAT-018
+
+**Difficulty:** Basic  
+**Type:** MCQ  
+**Marks:** 1
+
+If
+
+A = [ 4  0
+      0  7 ]
+
+then det(A) equals
+
+A. 11
+
+B. 28
+
+C. 7
+
+D. 4
+
+**Answer:** B
+
+**Concept Tested:** Determinant of a diagonal matrix.
+
+---
+
+## LA-MAT-019
+
+**Difficulty:** Basic  
+**Type:** MCQ  
+**Marks:** 1
+
+If
+
+A = [ 1  2
+      2  1 ]
+
+then A is
+
+A. Symmetric
+
+B. Skew-symmetric
+
+C. Identity
+
+D. Singular
+
+**Answer:** A
+
+**Concept Tested:** Symmetric matrix.
+
+---
+
+## LA-MAT-020
+
+**Difficulty:** Basic  
+**Type:** MCQ  
+**Marks:** 1
+
+If A and B are matrices of the same order, then
+
+A. A + B is always defined.
+
+B. AB is always defined.
+
+C. BA is always defined.
+
+D. det(A + B) = det(A) + det(B)
+
+**Answer:** A
+
+**Concept Tested:** Matrix addition.
