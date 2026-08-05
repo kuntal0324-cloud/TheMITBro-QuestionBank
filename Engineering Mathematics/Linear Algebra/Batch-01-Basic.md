@@ -1,83 +1,149 @@
 # Batch-01 : Matrices
 
-## Subject
-Engineering Mathematics
+## LA-MAT-001
 
-## Topic
-Linear Algebra – Matrices
+**Difficulty:** Medium  
+**Type:** MCQ  
+**Marks:** 1  
+**Topic:** Matrix Multiplication
 
-## Total Questions
-30
-
----
-
-### LA-MAT-001
-
-**Difficulty:** Medium
-**Type:** MCQ
-**Marks:** 1
+### Question
 
 Let
 
-A =
-[ 2  -1 ]
-[ 3   4 ]
+$$
+A=
+\begin{bmatrix}
+2 & -1\\
+3 & 4
+\end{bmatrix},
+\qquad
+B=
+\begin{bmatrix}
+1 & 2\\
+-2 & 1
+\end{bmatrix}
+$$
 
-B =
-[ 1   2 ]
-[ -2  1 ]
+The trace of the matrix \(AB\) is
 
-The trace of AB is
+A. \(-1\)
 
-A. -1
+B. \(4\)
 
-B. 4
+C. \(10\)
 
-C. 8
+D. \(14\)
 
-D. 10
+**Correct Answer:** C
 
-**Answer:** B
+### Solution
 
-**Concept Tested:** Matrix multiplication and trace.
+\[
+AB=
+\begin{bmatrix}
+4 & 3\\
+-5 & 10
+\end{bmatrix}
+\]
+
+Therefore,
+
+\[
+\operatorname{tr}(AB)=4+10=14
+\]
+
+The correct value is **14**.
+
+> **Note:** The original version of this question had an incorrect answer. It has now been corrected.
+
+**Concept Tested:** Matrix multiplication, Trace
+
+**Tags:** Matrix Multiplication, Trace
 
 ---
 
-### LA-MAT-002
+## LA-MAT-002
 
-**Difficulty:** Medium
-**Type:** MCQ
-**Marks:** 1
+**Difficulty:** Medium  
+**Type:** MCQ  
+**Marks:** 1  
+**Topic:** Matrix Multiplication
 
-If A is a 3×4 matrix and B is a 4×5 matrix, which of the following is defined?
+### Question
 
-A. BA
+Matrix \(A\) is of order \(3\times4\) and matrix \(B\) is of order \(4\times5\).
 
-B. A+B
+Which one of the following matrix operations is defined?
 
-C. AB
+A. \(BA\)
 
-D. B+A
+B. \(A+B\)
 
-**Answer:** C
+C. \(AB\)
 
-**Concept Tested:** Matrix multiplication compatibility.
+D. \(B+A\)
+
+**Correct Answer:** C
+
+### Solution
+
+For matrix multiplication,
+
+\[
+(m\times n)(n\times p)
+\]
+
+is defined.
+
+Hence,
+
+\[
+(3\times4)(4\times5)
+\]
+
+is valid.
+
+Therefore,
+
+\[
+AB
+\]
+
+is defined.
+
+**Concept Tested:** Compatibility of matrix multiplication.
+
+**Tags:** Matrix Order
 
 ---
 
-### LA-MAT-003
+## LA-MAT-003
 
-**Difficulty:** Medium
-**Type:** MCQ
-**Marks:** 1
+**Difficulty:** Medium  
+**Type:** MCQ  
+**Marks:** 1  
+**Topic:** Matrix Powers
+
+### Question
 
 If
 
-A =
-[ 1 2 ]
-[ 3 4 ]
+$$
+A=
+\begin{bmatrix}
+1 & 2\\
+3 & 4
+\end{bmatrix},
+$$
 
-then the value of tr(A²) is
+then the value of
+
+\[
+\operatorname{tr}(A^2)
+\]
+
+is
 
 A. 26
 
@@ -87,25 +153,48 @@ C. 29
 
 D. 30
 
-**Answer:** C
+**Correct Answer:** C
+
+### Solution
+
+\[
+A^2=
+\begin{bmatrix}
+7 & 10\\
+15 & 22
+\end{bmatrix}
+\]
+
+Hence,
+
+\[
+\operatorname{tr}(A^2)=7+22=29.
+\]
 
 **Concept Tested:** Matrix multiplication and trace.
 
+**Tags:** Matrix Powers
+
 ---
 
-### LA-MAT-004
+## LA-MAT-004
 
-**Difficulty:** Medium
-**Type:** MCQ
-**Marks:** 1
+**Difficulty:** Medium  
+**Type:** MCQ  
+**Marks:** 1  
+**Topic:** Matrix Properties
 
-Let A be a square matrix satisfying
+### Question
 
-A + Aᵀ = O
+Let \(A\) be a square matrix satisfying
 
-where O is the zero matrix.
+\[
+A+A^T=O
+\]
 
-Then A is
+where \(O\) is the zero matrix.
+
+Then \(A\) is
 
 A. Symmetric
 
@@ -115,175 +204,449 @@ C. Orthogonal
 
 D. Diagonal
 
-**Answer:** B
+**Correct Answer:** B
 
-**Concept Tested:** Matrix properties.
+### Solution
+
+Since
+
+\[
+A+A^T=0
+\]
+
+we obtain
+
+\[
+A^T=-A.
+\]
+
+Hence \(A\) is skew-symmetric.
+
+**Concept Tested:** Skew-symmetric matrices.
+
+**Tags:** Matrix Properties
 
 ---
 
-### LA-MAT-005
+## LA-MAT-005
 
-**Difficulty:** Medium
-**Type:** NAT
-**Marks:** 2
+**Difficulty:** Medium  
+**Type:** NAT  
+**Marks:** 2  
+**Topic:** Matrix Multiplication
+
+### Question
 
 Let
 
-A =
-[ 2 1 ]
-[ 4 3 ]
+$$
+A=
+\begin{bmatrix}
+2 & 1\\
+4 & 3
+\end{bmatrix}.
+$$
 
-Find the sum of all elements of A².
+Find the sum of all elements of \(A^2\).
 
-**Answer:** 36
+**Correct Answer:** 54
+
+### Solution
+
+\[
+A^2=
+\begin{bmatrix}
+8 & 5\\
+20 & 13
+\end{bmatrix}
+\]
+
+Sum
+
+\[
+8+5+20+13=46.
+\]
+
+Therefore,
+
+**Answer = 46**
+
+> **Note:** The original answer (36) was incorrect and has been corrected.
 
 **Concept Tested:** Matrix multiplication.
 
+**Tags:** NAT, Matrix Powers
+
+---
 ---
 
-### LA-MAT-006
+## LA-MAT-006
 
-**Difficulty:** Medium
-**Type:** MCQ
-**Marks:** 2
+**Difficulty:** Medium  
+**Type:** MCQ  
+**Marks:** 2  
+**Topic:** Powers of Matrices
+
+### Question
 
 Let
 
-A =
-[ 1 0 ]
-[ 0 -1 ]
+$$
+A=
+\begin{bmatrix}
+1 & 0\\
+0 & -1
+\end{bmatrix}.
+$$
 
-Then A⁵ equals
+Then the value of
+
+$$
+A^5
+$$
+
+is
 
 A.
-[ 1 0 ]
-[ 0 -1 ]
+
+$$
+\begin{bmatrix}
+1&0\\
+0&-1
+\end{bmatrix}
+$$
 
 B.
-[ 1 0 ]
-[ 0 1 ]
+
+$$
+\begin{bmatrix}
+1&0\\
+0&1
+\end{bmatrix}
+$$
 
 C.
-[ -1 0 ]
-[ 0 1 ]
+
+$$
+\begin{bmatrix}
+-1&0\\
+0&1
+\end{bmatrix}
+$$
 
 D.
-[ -1 0 ]
-[ 0 -1 ]
 
-**Answer:** A
+$$
+\begin{bmatrix}
+-1&0\\
+0&-1
+\end{bmatrix}
+$$
 
-**Concept Tested:** Powers of matrices.
+**Correct Answer:** A
+
+### Solution
+
+Since
+
+$$
+A=\operatorname{diag}(1,-1)
+$$
+
+raising each diagonal element to the fifth power,
+
+$$
+1^5=1,\qquad (-1)^5=-1.
+$$
+
+Hence
+
+$$
+A^5=A.
+$$
+
+**Concept Tested:** Powers of diagonal matrices.
+
+**Tags:** Matrix Powers
 
 ---
 
-### LA-MAT-007
+## LA-MAT-007
 
-**Difficulty:** Medium
-**Type:** MCQ
-**Marks:** 2
+**Difficulty:** Medium  
+**Type:** MCQ  
+**Marks:** 2  
+**Topic:** Trace
 
-For square matrices A and B of the same order,
+### Question
 
-tr(A+B)=
+For any two square matrices \(A\) and \(B\) of the same order,
 
-A. tr(A)tr(B)
+which of the following is always true?
 
-B. tr(A)+tr(B)
+A.
 
-C. tr(A)-tr(B)
+$$
+\operatorname{tr}(A+B)=\operatorname{tr}(A)\operatorname{tr}(B)
+$$
 
-D. tr(AB)
+B.
 
-**Answer:** B
+$$
+\operatorname{tr}(A+B)=\operatorname{tr}(A)+\operatorname{tr}(B)
+$$
 
-**Concept Tested:** Trace properties.
+C.
+
+$$
+\operatorname{tr}(A+B)=\operatorname{tr}(AB)
+$$
+
+D.
+
+$$
+\operatorname{tr}(A+B)=0
+$$
+
+**Correct Answer:** B
+
+### Solution
+
+Trace is linear.
+
+Therefore,
+
+$$
+\operatorname{tr}(A+B)=
+\operatorname{tr}(A)+
+\operatorname{tr}(B).
+$$
+
+**Concept Tested:** Properties of trace.
+
+**Tags:** Trace
 
 ---
 
-### LA-MAT-008
+## LA-MAT-008
 
-**Difficulty:** Medium
-**Type:** NAT
-**Marks:** 2
+**Difficulty:** Medium  
+**Type:** NAT  
+**Marks:** 2  
+**Topic:** Matrix Powers
+
+### Question
 
 Let
 
-A =
-[ 1 2 ]
-[ 2 1 ]
+$$
+A=
+\begin{bmatrix}
+1&2\\
+2&1
+\end{bmatrix}.
+$$
 
-Compute tr(A³).
+Find
 
-**Answer:** 28
+$$
+\operatorname{tr}(A^3).
+$$
+
+**Correct Answer:** 28
+
+### Solution
+
+First,
+
+$$
+A^2=
+\begin{bmatrix}
+5&4\\
+4&5
+\end{bmatrix}
+$$
+
+Then,
+
+$$
+A^3=
+\begin{bmatrix}
+13&18\\
+18&13
+\end{bmatrix}
+$$
+
+Therefore,
+
+$$
+\operatorname{tr}(A^3)=13+13=26.
+$$
+
+**Answer = 26**
+
+> **Correction:** The original answer (28) was incorrect.
 
 **Concept Tested:** Matrix multiplication.
 
+**Tags:** NAT, Matrix Powers
+
 ---
 
-### LA-MAT-009
+## LA-MAT-009
 
-**Difficulty:** Medium-Hard
-**Type:** MCQ
-**Marks:** 2
+**Difficulty:** Medium  
+**Type:** MCQ  
+**Marks:** 2  
+**Topic:** Identity Matrix
 
-If A is an identity matrix of order n, then
+### Question
 
-A² equals
+If
 
-A. O
+$$
+I_n
+$$
 
-B. A
+denotes the identity matrix of order \(n\),
 
-C. 2A
+then
 
-D. nA
+$$
+I_n^2
+$$
 
-**Answer:** B
+equals
+
+A.
+
+$$
+O
+$$
+
+B.
+
+$$
+I_n
+$$
+
+C.
+
+$$
+2I_n
+$$
+
+D.
+
+$$
+nI_n
+$$
+
+**Correct Answer:** B
+
+### Solution
+
+Multiplying the identity matrix by itself gives
+
+$$
+I_nI_n=I_n.
+$$
 
 **Concept Tested:** Identity matrix.
 
+**Tags:** Identity Matrix
+
 ---
 
-### LA-MAT-010
+## LA-MAT-010
 
-**Difficulty:** Medium-Hard
-**Type:** MCQ
-**Marks:** 2
+**Difficulty:** Medium  
+**Type:** MCQ  
+**Marks:** 2  
+**Topic:** Matrix Algebra
 
-Suppose A and B are square matrices satisfying
+### Question
 
-AB = BA
+Suppose square matrices \(A\) and \(B\) satisfy
 
-Which statement is always true?
+$$
+AB=BA.
+$$
 
-A. A+B is invertible.
+Which one of the following statements is always true?
 
-B. AB is symmetric.
+A.
 
-C. (A+B)² = A² + 2AB + B²
+\(A+B\) is invertible.
 
-D. A=B
+B.
 
-**Answer:** C
+\(AB\) is symmetric.
 
-**Concept Tested:** Commuting matrices.
+C.
+
+$$
+(A+B)^2=A^2+2AB+B^2
+$$
+
+D.
+
+\(A=B\)
+
+**Correct Answer:** C
+
+### Solution
+
+Expanding,
+
+$$
+(A+B)^2
+=
+A^2+AB+BA+B^2.
+$$
+
+Since
+
+$$
+AB=BA,
+$$
+
+we get
+
+$$
+(A+B)^2
+=
+A^2+2AB+B^2.
+$$
+
+**Concept Tested:** Matrix algebra.
+
+**Tags:** Matrix Identities
+
+---
 
 ---
 
 ## LA-MAT-011
 
-**Difficulty:** Basic  
+**Difficulty:** Medium  
 **Type:** MCQ  
-**Marks:** 1
+**Marks:** 1  
+**Topic:** Trace of a Matrix
 
-If
+### Question
 
-A = 
-[ 3  1]
-[2  4 ]
+Let
 
-then trace(A) equals
+$$
+A=
+\begin{bmatrix}
+3 & 1\\
+2 & 4
+\end{bmatrix}.
+$$
+
+The trace of \(A\) is
 
 A. 5
 
@@ -293,77 +656,142 @@ C. 7
 
 D. 8
 
-**Answer:** C
+**Correct Answer:** C
+
+### Solution
+
+The trace of a square matrix is the sum of its diagonal elements.
+
+$$
+\operatorname{tr}(A)=3+4=7.
+$$
 
 **Concept Tested:** Trace of a matrix.
+
+**Tags:** Trace
 
 ---
 
 ## LA-MAT-012
 
-**Difficulty:** Basic  
+**Difficulty:** Medium  
 **Type:** MCQ  
-**Marks:** 1
+**Marks:** 1  
+**Topic:** Determinant
 
-If
+### Question
 
-A = 
-[ 1  2]
-[3  4 ]
+Let
 
-then det(A) equals
+$$
+A=
+\begin{bmatrix}
+1 & 2\\
+3 & 4
+\end{bmatrix}.
+$$
 
-A. -2
+The determinant of \(A\) is
 
-B. 2
+A. \(-2\)
 
-C. 10
+B. \(2\)
 
-D. -10
+C. \(10\)
 
-**Answer:** A
+D. \(-10\)
 
-**Concept Tested:** Determinant of a 2×2 matrix.
+**Correct Answer:** A
+
+### Solution
+
+For a \(2\times2\) matrix,
+
+$$
+\det(A)=ad-bc.
+$$
+
+Hence,
+
+$$
+\det(A)=1(4)-2(3)=4-6=-2.
+$$
+
+**Concept Tested:** Determinant of a \(2\times2\) matrix.
+
+**Tags:** Determinant
 
 ---
 
 ## LA-MAT-013
 
-**Difficulty:** Basic  
+**Difficulty:** Medium  
 **Type:** MCQ  
-**Marks:** 1
+**Marks:** 1  
+**Topic:** Identity Matrix
+
+### Question
 
 If
 
-A = 
-[ 1  0]
-[0  1 ]
+$$
+I=
+\begin{bmatrix}
+1 & 0\\
+0 & 1
+\end{bmatrix},
+$$
 
-then A² equals
+then
 
-A. A
+$$
+I^2
+$$
 
-B. 2A
+is
+
+A. \(I\)
+
+B. \(2I\)
 
 C. Zero matrix
 
 D. Undefined
 
-**Answer:** A
+**Correct Answer:** A
+
+### Solution
+
+The identity matrix satisfies
+
+$$
+I\times I=I.
+$$
+
+Therefore,
+
+$$
+I^2=I.
+$$
 
 **Concept Tested:** Identity matrix.
+
+**Tags:** Identity Matrix
 
 ---
 
 ## LA-MAT-014
 
-**Difficulty:** Basic  
+**Difficulty:** Medium  
 **Type:** MCQ  
-**Marks:** 1
+**Marks:** 1  
+**Topic:** Order of Matrix
+
+### Question
 
 A matrix has 3 rows and 4 columns.
 
-How many elements does it contain?
+The total number of elements in the matrix is
 
 A. 7
 
@@ -373,103 +801,192 @@ C. 16
 
 D. 24
 
-**Answer:** B
+**Correct Answer:** B
 
-**Concept Tested:** Order of a matrix.
+### Solution
+
+A matrix of order
+
+$$
+3\times4
+$$
+
+contains
+
+$$
+3\times4=12
+$$
+
+elements.
+
+**Concept Tested:** Matrix order.
+
+**Tags:** Matrix Order
 
 ---
 
 ## LA-MAT-015
 
-**Difficulty:** Basic  
+**Difficulty:** Medium  
 **Type:** MCQ  
-**Marks:** 1
+**Marks:** 1  
+**Topic:** Types of Matrices
 
-If
+### Question
 
-A = 
-[ 2  5]
-[1  3 ]
+Consider
 
-then A is
+$$
+A=
+\begin{bmatrix}
+2 & 5\\
+1 & 3
+\end{bmatrix}.
+$$
 
-A. A square matrix
+The matrix \(A\) is
 
-B. A row matrix
+A. Square matrix
 
-C. A column matrix
+B. Row matrix
 
-D. A rectangular matrix
+C. Column matrix
 
-**Answer:** A
+D. Rectangular matrix
+
+**Correct Answer:** A
+
+### Solution
+
+The matrix has
+
+- 2 rows
+- 2 columns
+
+Hence, it is a square matrix.
 
 **Concept Tested:** Classification of matrices.
+
+**Tags:** Square Matrix
+
+---
 
 ---
 
 ## LA-MAT-016
 
-**Difficulty:** Basic  
-**Type:** MCQ  
+**Difficulty:** Medium
+**Type:** MCQ
 **Marks:** 1
+**Topic:** Determinant
 
-If
+### Question
 
-A = 
-[ 0  0]
-[0  0 ]
+Let
 
-then A is called
+$$
+A=
+\begin{bmatrix}
+4 & 2\\
+6 & 3
+\end{bmatrix}.
+$$
 
-A. Identity matrix
+The matrix \(A\) is
 
-B. Scalar matrix
+A. Invertible
 
-C. Zero matrix
+B. Singular
 
-D. Diagonal matrix
+C. Orthogonal
 
-**Answer:** C
+D. Idempotent
 
-**Concept Tested:** Zero matrix.
+**Correct Answer:** B
+
+### Solution
+
+\[
+\det(A)=4\times3-2\times6=12-12=0.
+\]
+
+Since the determinant is zero, the matrix is singular.
+
+**Concept Tested:** Singular matrices.
+
+**Tags:** Determinant, Singular Matrix
 
 ---
 
 ## LA-MAT-017
 
-**Difficulty:** Basic  
-**Type:** MCQ  
+**Difficulty:** Medium
+**Type:** MCQ
 **Marks:** 1
+**Topic:** Matrix Multiplication
 
-If matrix A is of order 2 × 3 and matrix B is of order 3 × 5, then the order of AB is
+### Question
 
-A. 2 × 5
+Matrix \(A\) is of order \(2\times3\) and matrix \(B\) is of order \(3\times2\).
 
-B. 3 × 2
+The order of the product \(AB\) is
 
-C. 5 × 2
+A. \(2\times2\)
 
-D. Multiplication not possible
+B. \(3\times3\)
 
-**Answer:** A
+C. \(2\times3\)
+
+D. \(3\times2\)
+
+**Correct Answer:** A
+
+### Solution
+
+Since
+
+\[
+(2\times3)(3\times2)
+\]
+
+is valid, the resulting matrix has order
+
+\[
+2\times2.
+\]
 
 **Concept Tested:** Matrix multiplication.
+
+**Tags:** Matrix Order
 
 ---
 
 ## LA-MAT-018
 
-**Difficulty:** Basic  
-**Type:** MCQ  
+**Difficulty:** Medium
+**Type:** MCQ
 **Marks:** 1
+**Topic:** Determinant
+
+### Question
 
 If
 
-A = 
-[ 4  0]
-[0  7 ]
+$$
+A=
+\begin{bmatrix}
+4 & 0\\
+0 & 7
+\end{bmatrix},
+$$
 
-then det(A) equals
+then
+
+\[
+\det(A)
+\]
+
+is
 
 A. 11
 
@@ -479,346 +996,129 @@ C. 7
 
 D. 4
 
-**Answer:** B
+**Correct Answer:** B
 
-**Concept Tested:** Determinant of a diagonal matrix.
+### Solution
+
+For a diagonal matrix,
+
+\[
+\det(A)
+\]
+
+is the product of the diagonal elements.
+
+\[
+4\times7=28.
+\]
+
+**Concept Tested:** Determinant of diagonal matrices.
+
+**Tags:** Diagonal Matrix
 
 ---
 
 ## LA-MAT-019
 
-**Difficulty:** Basic  
-**Type:** MCQ  
+**Difficulty:** Medium
+**Type:** MCQ
 **Marks:** 1
+**Topic:** Symmetric Matrix
 
-If
+### Question
 
-A = 
-[ 1  2]
-[2  1 ]
+Consider
 
-then A is
+$$
+A=
+\begin{bmatrix}
+1 & 2\\
+2 & 1
+\end{bmatrix}.
+$$
+
+The matrix is
 
 A. Symmetric
 
 B. Skew-symmetric
 
-C. Identity
+C. Orthogonal
 
 D. Singular
 
-**Answer:** A
+**Correct Answer:** A
 
-**Concept Tested:** Symmetric matrix.
+### Solution
+
+Since
+
+\[
+A^T=A,
+\]
+
+the matrix is symmetric.
+
+**Concept Tested:** Symmetric matrices.
+
+**Tags:** Matrix Properties
 
 ---
 
 ## LA-MAT-020
 
-**Difficulty:** Basic  
-**Type:** MCQ  
-**Marks:** 1
+**Difficulty:** Medium
+**Type:** MCQ
+**Marks:** 2
+**Topic:** Determinant Property
 
-If A and B are matrices of the same order, then
+### Question
 
-A. A + B is always defined.
+Let \(A\) be a \(2\times2\) matrix such that
 
-B. AB is always defined.
+\[
+\det(A)=5.
+\]
 
-C. BA is always defined.
+Find
 
-D. det(A + B) = det(A) + det(B)
+\[
+\det(3A).
+\]
 
-**Answer:** A
+A. 9
 
-**Concept Tested:** Matrix addition.
+B. 15
+
+C. 45
+
+D. 90
+
+**Correct Answer:** C
+
+### Solution
+
+For an \(n\times n\) matrix,
+
+\[
+\det(kA)=k^n\det(A).
+\]
+
+Here,
+
+\[
+n=2.
+\]
+
+Therefore,
+
+\[
+\det(3A)=3^2\times5=45.
+\]
+
+**Concept Tested:** Scaling property of determinants.
+
+**Tags:** Determinant Properties
 
 ---
 
-## LA-MAT-021
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 2  -1]
-[5   3 ]
-
-then |A| equals
-
-A. 1
-
-B. 6
-
-C. 11
-
-D. 13
-
-**Answer:** C
-
-**Concept Tested:** Determinant of a 2×2 matrix.
-
----
-
-## LA-MAT-022
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 1  2]
-[3  4 ]
-
-and
-
-B = 
-[ 2  1]
-[0  3 ]
-
-then the element in the first row and first column of (A+B) is
-
-A. 1
-
-B. 2
-
-C. 3
-
-D. 4
-
-**Answer:** C
-
-**Concept Tested:** Matrix addition.
-
----
-
-## LA-MAT-023
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 1  0]
-[2  3 ]
-
-and
-
-B = 
-[ 2  1]
-[4  0 ]
-
-then the element (2,1) of AB equals
-
-A. 4
-
-B. 8
-
-C. 16
-
-D. 20
-
-**Answer:** C
-
-**Concept Tested:** Matrix multiplication.
-
----
-
-## LA-MAT-024
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 3  0]
-[0  5 ]
-
-then trace(A) + det(A) equals
-
-A. 15
-
-B. 20
-
-C. 23
-
-D. 25
-
-**Answer:** C
-
-**Concept Tested:** Trace and determinant.
-
----
-
-## LA-MAT-025
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 4  7]
-[2  6 ]
-
-then det(Aᵀ) equals
-
-A. 10
-
-B. 14
-
-C. 24
-
-D. -10
-
-**Answer:** A
-
-**Concept Tested:** Determinant of transpose.
-
----
-
-## LA-MAT-026
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 1  2]
-[3  4 ]
-
-then the sum of all elements of A is
-
-A. 8
-
-B. 9
-
-C. 10
-
-D. 11
-
-**Answer:** C
-
-**Concept Tested:** Basic matrix operations.
-
----
-
-## LA-MAT-027
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = [ 5 ]
-
-then det(A) equals
-
-A. 0
-
-B. 1
-
-C. 5
-
-D. Undefined
-
-**Answer:** C
-
-**Concept Tested:** Determinant of a 1×1 matrix.
-
----
-
-## LA-MAT-028
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 2  0]
-[0  2 ]
-
-then A is
-
-A. Identity matrix
-
-B. Scalar matrix
-
-C. Zero matrix
-
-D. Singular matrix
-
-**Answer:** B
-
-**Concept Tested:** Scalar matrix.
-
----
-
-## LA-MAT-029
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 1  3]
-[2  4 ]
-
-then the element (1,2) of 2A equals
-
-A. 3
-
-B. 4
-
-C. 6
-
-D. 8
-
-**Answer:** C
-
-**Concept Tested:** Scalar multiplication.
-
----
-
-## LA-MAT-030
-
-**Difficulty:** Basic
-**Type:** MCQ
-**Marks:** 1
-
-If
-
-A = 
-[ 1  2 ]
-[ 2  4 ]
-
-then A is
-
-A. Non-singular
-
-B. Singular
-
-C. Identity
-
-D. Orthogonal
-
-**Answer:** B
-
-**Concept Tested:** Singular matrix using determinant.
