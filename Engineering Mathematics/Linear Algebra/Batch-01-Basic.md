@@ -279,8 +279,9 @@ D. A=B
 
 If
 
-A = [ 3  1
-      2  4 ]
+A = 
+[ 3  1]
+[2  4 ]
 
 then trace(A) equals
 
@@ -306,8 +307,9 @@ D. 8
 
 If
 
-A = [ 1  2
-      3  4 ]
+A = 
+[ 1  2]
+[3  4 ]
 
 then det(A) equals
 
@@ -333,8 +335,9 @@ D. -10
 
 If
 
-A = [ 1  0
-      0  1 ]
+A = 
+[ 1  0]
+[0  1 ]
 
 then A² equals
 
@@ -384,8 +387,9 @@ D. 24
 
 If
 
-A = [ 2  5
-      1  3 ]
+A = 
+[ 2  5]
+[1  3 ]
 
 then A is
 
@@ -411,8 +415,9 @@ D. A rectangular matrix
 
 If
 
-A = [ 0  0
-      0  0 ]
+A = 
+[ 0  0]
+[0  0 ]
 
 then A is called
 
@@ -460,8 +465,9 @@ D. Multiplication not possible
 
 If
 
-A = [ 4  0
-      0  7 ]
+A = 
+[ 4  0]
+[0  7 ]
 
 then det(A) equals
 
@@ -487,8 +493,9 @@ D. 4
 
 If
 
-A = [ 1  2
-      2  1 ]
+A = 
+[ 1  2]
+[2  1 ]
 
 then A is
 
@@ -536,8 +543,9 @@ D. det(A + B) = det(A) + det(B)
 
 If
 
-A = [ 2  -1
-      5   3 ]
+A = 
+[ 2  -1]
+[5   3 ]
 
 then |A| equals
 
@@ -563,13 +571,15 @@ D. 13
 
 If
 
-A = [ 1  2
-      3  4 ]
+A = 
+[ 1  2]
+[3  4 ]
 
 and
 
-B = [ 2  1
-      0  3 ]
+B = 
+[ 2  1]
+[0  3 ]
 
 then the element in the first row and first column of (A+B) is
 
@@ -595,13 +605,15 @@ D. 4
 
 If
 
-A = [ 1  0
-      2  3 ]
+A = 
+[ 1  0]
+[2  3 ]
 
 and
 
-B = [ 2  1
-      4  0 ]
+B = 
+[ 2  1]
+[4  0 ]
 
 then the element (2,1) of AB equals
 
@@ -627,8 +639,9 @@ D. 20
 
 If
 
-A = [ 3  0
-      0  5 ]
+A = 
+[ 3  0]
+[0  5 ]
 
 then trace(A) + det(A) equals
 
@@ -654,8 +667,9 @@ D. 25
 
 If
 
-A = [ 4  7
-      2  6 ]
+A = 
+[ 4  7]
+[2  6 ]
 
 then det(Aᵀ) equals
 
@@ -681,8 +695,9 @@ D. -10
 
 If
 
-A = [ 1  2
-      3  4 ]
+A = 
+[ 1  2]
+[3  4 ]
 
 then the sum of all elements of A is
 
@@ -734,8 +749,9 @@ D. Undefined
 
 If
 
-A = [ 2  0
-      0  2 ]
+A = 
+[ 2  0]
+[0  2 ]
 
 then A is
 
@@ -761,8 +777,9 @@ D. Singular matrix
 
 If
 
-A = [ 1  3
-      2  4 ]
+A = 
+[ 1  3]
+[2  4 ]
 
 then the element (1,2) of 2A equals
 
