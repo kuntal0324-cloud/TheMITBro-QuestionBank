@@ -10,8 +10,9 @@
 
 If
 
-A = [ 2  1
-      3  2 ]
+A = 
+[ 2  1]
+[3  2 ]
 
 then det(A⁻¹) is
 
@@ -37,26 +38,27 @@ D. -2
 
 If
 
-A = [ 1  2
-      3  5 ]
+A = 
+[ 1  2]
+[3  5 ]
 
 then A⁻¹ is
 
 A.
-[ -5   2
-   3  -1 ]
+[-5   2]
+[3  -1]
 
 B.
-[ 5  -2
- -3   1 ]
+[ 5  -2]
+[-3   1 ]
 
 C.
-[ -5   3
-   2  -1 ]
+[ -5   3]
+[2  -1 ]
 
 D.
-[ 1   2
-  3   5 ]
+[ 1   2]
+[3   5 ]
 
 **Answer:** A
 
@@ -94,8 +96,9 @@ D. 7
 
 If
 
-A = [ 1  2
-      2  4 ]
+A = 
+[ 1  2]
+[2  4 ]
 
 then A is
 
@@ -121,9 +124,9 @@ D. Idempotent
 
 The determinant of
 
-[ 2  1  0
-  0  3  2
-  0  0  4 ]
+[ 2  1  0]
+[ 0  3  2]
+[ 0  0  4]
 
 is
 
@@ -149,8 +152,9 @@ D. 36
 
 If
 
-A = [ 3  2
-      0  3 ]
+A = 
+[ 3  2]
+[ 0  3]
 
 then the eigenvalues of A are
 
@@ -198,8 +202,9 @@ D. 45
 
 If
 
-A = [ 1  0
-      0 -2 ]
+A = 
+[ 1  0]
+[0 -2 ]
 
 then trace(A²) equals
 
@@ -225,9 +230,9 @@ D. 6
 
 The rank of
 
-[ 1  2  3
-  2  4  6
-  1  1  0 ]
+[ 1  2  3 ]
+[ 2  4  6 ]
+[ 1  1  0 ]
 
 is
 
@@ -253,8 +258,9 @@ D. 0
 
 If
 
-A = [ 0  1
-     -2  3 ]
+A = 
+[ 0  1 ]
+[ -2  3 ]
 
 then the characteristic equation of A is
 
@@ -280,8 +286,9 @@ D. λ²+3λ−2=0
 
 Let
 
-A = [ 1   2
-      3   5 ]
+A = 
+[ 1   2]
+[ 3   5]
 
 Then det(A²) is
 
@@ -307,8 +314,9 @@ D. 25
 
 If
 
-A = [ 2   1
-      0   4 ]
+A = 
+[ 2   1 ]
+[ 0   4 ]
 
 then trace(A⁻¹) equals
 
@@ -334,13 +342,15 @@ D. 5/8
 
 If
 
-A = [ 4   0
-      0   6 ]
+A = 
+[ 4   0]
+[ 0   6 ]
 
 and
 
-B = [ 2   0
-      0   3 ]
+B = 
+[ 2   0]
+[ 0   3 ]
 
 then det(AB⁻¹) equals
 
@@ -366,8 +376,9 @@ D. 8
 
 If λ₁ and λ₂ are the eigenvalues of
 
-A = [ 3   1
-      0   5 ]
+A = 
+[ 3   1]
+[ 0   5 ]
 
 then λ₁ + λ₂ equals
 
@@ -393,8 +404,9 @@ D. 8
 
 If
 
-A = [ 1   2
-      2   4 ]
+A = 
+[ 1   2]
+[ 2   4 ]
 
 then rank(A) is
 
@@ -442,9 +454,9 @@ D. 50
 
 The determinant of
 
-[ 1   2   3
-  0   5   1
-  0   0   2 ]
+[ 1   2   3 ]
+[ 0   5   1 ]
+[ 0   0   2 ]
 
 is
 
@@ -470,8 +482,9 @@ D. 12
 
 If
 
-A = [ 2   1
-      1   2 ]
+A = 
+[ 2   1 ]
+[ 1   2 ]
 
 then the characteristic polynomial is
 
@@ -521,8 +534,9 @@ D. det(Aᵀ)
 
 If
 
-A = [ 1   2
-      3   4 ]
+A =
+[ 1   2]
+[3   4 ]
 
 then det(adj A) equals
 
@@ -570,8 +584,9 @@ D. 12
 
 If
 
-A = [ 2   0
-      0  -5 ]
+A = 
+[ 2   0 ]
+[ 0  -5 ]
 
 then the sum of the eigenvalues of A² is
 
@@ -597,8 +612,9 @@ D. 31
 
 If
 
-A = [ 1   2
-      2   1 ]
+A = 
+[ 1   2]
+[2   1 ]
 
 then det(A + I) equals
 
@@ -624,9 +640,9 @@ D. 9
 
 The determinant of
 
-[ 1   2   0
-  0   3   4
-  0   0   5 ]
+[ 1   2   0]
+[ 0   3   4]
+[ 0   0   5 ]
 
 is
 
@@ -674,8 +690,9 @@ D. 6
 
 If
 
-A = [ 1   1
-      0   1 ]
+A = 
+[ 1   1]
+[0   1 ]
 
 then A is
 
@@ -723,9 +740,9 @@ D. 4/25
 
 The rank of the matrix
 
-[ 1   0   2
-  0   1   3
-  0   0   0 ]
+[ 1   0   2]
+[ 0   1   3]
+[ 0   0   0]
 
 is
 
@@ -751,8 +768,9 @@ D. 0
 
 If
 
-A = [ 0   1
-     -6  -5 ]
+A = 
+[ 0   1]
+[ -6  -5 ]
 
 then the characteristic equation is
 
@@ -778,8 +796,9 @@ D. λ² − 6λ + 5 = 0
 
 If
 
-A = [ 3   0
-      0   7 ]
+A = 
+[ 3   0]
+[0   7 ]
 
 then det(A⁻¹) + trace(A⁻¹) equals
 
